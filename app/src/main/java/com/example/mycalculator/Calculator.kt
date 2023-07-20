@@ -1,7 +1,7 @@
 package com.example.mycalculator
 
 class Calculator {
-    fun calculate(num1: Int, num2: Int, operator: String) {
+    fun calculator(num1: Int, num2: Int, operator: String) {
 
 
         if(operator=="+") {
@@ -28,8 +28,8 @@ class Calculator {
         return addOperation.add(num1, num2)
     }
 
-    fun substractOperation(substractOperation: SubstractOperation, num1: Int, num2: Int): Int {
-        return substractOperation.substract(num1, num2)
+    fun abstractOperation(abstractOperation: AbstractOperation, num1: Int, num2: Int): Int {
+        return abstractOperation.abstract(num1, num2)
     }
 
     fun multiplyOperation(multiplyOperation: MultiplyOperation, num1: Int, num2: Int): Int {
