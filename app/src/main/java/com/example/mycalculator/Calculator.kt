@@ -16,9 +16,6 @@ class Calculator {
         } else if(operator=="/"){
             var divideResult = num1 / num2
             println("${num1} / ${num2}의 결과는 ${divideResult}입니다.")
-        } else if(operator=="%"){
-            var elseResult = num1 % num2
-            println("${num1} % ${num2}의 결과는 ${elseResult}입니다. ")
         } else{
             println("잘못된 연산자입니다")
         }
